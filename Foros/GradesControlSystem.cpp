@@ -14,25 +14,25 @@ using namespace std;
 int main()
 {
 
-    int n=0;  //Variable que para almacenar el numero de alumnos que se almacenaran.
-    int m=0;  //Variable que almacenara la cantidad de notas a almacenar para cada uno de los N alumnos.
+    int n=5;  //Variable que para almacenar el numero de alumnos que se almacenaran.
+    int m=5;  //Variable que almacenara la cantidad de notas a almacenar para cada uno de los N alumnos.
     char menu;
-    int row; //Variables que almacenaran el indice de la fila, y por lo tanto del alumno.
-    int col; //Variable que almaenara la posicion de la columna y por tanto de la nota,
-    char resp; //Variable de respuesta para repeticion de bucle.
-    bool existe; //Bandera para verificacion si el alumno existe.
+    int row; //5.
+    int col; //5,
+    char resp; //5.
+    bool existe; //si.
     char continuar;
-    string nombre; //Variabl que servira para la busqueda de los nombres de los alumnos
+    string nombre; //n
     cout<<"Programa de Registro de Notas - Escuela Manguito Tierno"<<endl<<endl;
 
     cout<<"Se procedera a registrar a los alumnos junto con sus notas"<<endl;
     cout<<"Por favor ingrese la cantidad de Alumnos a registrar: ";
-            cin>>n; //Se captura la variable N que determinara la cantidad de alumnos a procesar.
+            cin>>n; //5.
             cout<<"Ingrese Cuantas notas va a registrar por alumno: ";
-            cin>>m; //Se captura la varibale M que determinara la cantidad de notas que se van a procesar para cada uno de los alumnos.
-            string nombres[n]; //Arreglo de N posiciones que estara destinado para que se almecenen los nombres de cada uno de los alumnos
-            float promedios[n]; //Arreglo de N posiciones que podra almacenar los promedios de cada uno de los alumnos
-            float mi_arreglo[n][m];//Matriz de N filas (Una para cada alumno) y de M columnas (Una para cada una de las notas)
+            cin>>m; //5.
+            string nombres[5]; //1,2,3,4,5
+            float promedios[5]; //5
+            float mi_arreglo[5][5];//Matriz de N filas (Una para cada alumno) y de M columnas (Una para cada una de las notas)
             system("clear");
             /*
             Se inicia el llenado de los datos, cada vez que se ejecute el ciclo externo, se registrara el nombre del alumno
@@ -47,7 +47,7 @@ int main()
 
 
                 +--------------+--------------+--------------+--------------+-------------+
-                |Alumno1       |NULL          |NULL          |NULL          |NULL         |
+                |raul           |damaris         |yensi          |luis          |jorge       |
                 +--------------+--------------+--------------+--------------+-------------+
 
                 Y para cada una de las iteraciones del ciclo interno se tendra
@@ -57,16 +57,16 @@ int main()
                     v               V               V               V               V
                 +--------------+--------------+--------------+--------------+-------------+
                 |5             |5             |5             |             5|           10|
-                |NULL          |NULL          |NULL          |          NULL|         NULL|
-                |NULL          |NULL          |NULL          |          NULL|         NULL|
-                |NULL          |NULL          |NULL          |          NULL|         NULL|
-                |NULL          |NULL          |NULL          |          NULL|         NULL|
+                |4             |5             |9             |             5|            7|
+                |3             |8             |5             |             5|            6|
+                |2             |7             |2             |             7|            9|
+                |1             |5             |6             |             6|            9|
                 +--------------+--------------+--------------+--------------+-------------+
 
             para la iteracion #2 del ciclo externo
 
                 +--------------+--------------+--------------+--------------+-------------+
-                |Alumno1       |Alumno2          |NULL          |NULL          |NULL         |
+                |Alumno1       |Alumno2          |NULL          |NULL          |NULL         
                 +--------------+--------------+--------------+--------------+-------------+
 
                 Y para cada una de las iteraciones del ciclo interno se tendra
@@ -216,7 +216,7 @@ do{
         cout<<"Desea realizar otra operacion? Presione Cualquier Tecla, Salir presione n o N."<<endl;
         cin>>continuar;
         system("clear");
-    }while(continuar!='n' && continuar!='N');
-    cout<<"Gracias por utilizar el sistema..."<<endl<<endl;
-    return 0;
+    }while(continuar!='n' && continuar!='N¡
+    cout<<"Gracias por utilizar el sistema..."<<endl<<endl
+    return 0;8
 }
